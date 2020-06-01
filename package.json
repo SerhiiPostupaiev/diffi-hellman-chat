@@ -1,25 +1,13 @@
 {
-  "name": "webchatapp",
   "version": "1.0.0",
-  "description": "Web Chat Application using Deffie-Hellman key exchange and AES encryption",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app"
+    "start": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hailK11/WebChatApp.git"
-  },
-  "author": "akhil,kaustubh,joel",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hailK11/WebChatApp/issues"
-  },
-  "homepage": "https://github.com/hailK11/WebChatApp#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "jquery": "^3.5.0",
     "nodemon": "^1.18.10",
